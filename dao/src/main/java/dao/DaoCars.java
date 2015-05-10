@@ -59,10 +59,8 @@ public class DaoCars {
 			}			
 		} catch (SQLException e) {
 			log.error(e);
-			e.printStackTrace();
 		} catch (NamingException e) {
 			log.error(e);
-			e.printStackTrace();
 		}
 		return null;
 	}
@@ -92,10 +90,8 @@ public class DaoCars {
 			return cars;
 		} catch (SQLException e) {
 			log.error(e);
-			e.printStackTrace();
 		} catch (NamingException e) {
 			log.error(e);
-			e.printStackTrace();
 		}
 		return null;
 	}
@@ -112,10 +108,8 @@ public class DaoCars {
 			return 1;
 		} catch (SQLException e) {
 			log.error(e);
-			e.printStackTrace();
 		} catch (NamingException e) {
 			log.error(e);
-			e.printStackTrace();
 		}
 		return -1;
 	}
@@ -132,10 +126,8 @@ public class DaoCars {
 			return 1;
 		} catch (SQLException e) {
 			log.error(e);
-			e.printStackTrace();
 		} catch (NamingException e) {
 			log.error(e);
-			e.printStackTrace();
 		}
 		return -1;
 	}
@@ -153,10 +145,8 @@ public class DaoCars {
 			return 1;
 		} catch (SQLException e) {
 			log.error(e);
-			e.printStackTrace();
 		} catch (NamingException e) {
 			log.error(e);
-			e.printStackTrace();
 		}
 		return -1;
 	}
