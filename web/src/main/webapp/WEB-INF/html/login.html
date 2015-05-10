@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Авторизация</title>
+</head>
+<body>
+<div align="center">
+<h1>Здравствуйте!</h1>
+<form action="/AutoBase/login/" method="POST"> 
+<table cellspacing="2" border="3"> 
+<tr> 
+<th align="right">Email:</th> 
+<td align="left"><input type="text" name="email" required></td><!-- \w+@\w+\\.\w --> 
+</tr> 
+<tr> 
+<th align="right">Пароль:</th> 
+<td align="left"><input type="password" name="password" required></td> <!-- \d{4,8} -->
+</tr> 
+<tr> 
+<td align="left"><button type="reset">Сброс</button></td> 
+<td align="center"><button type="submit" style="width:150px">Войти</button></td> 
+</tr> 
+</table>
+</form>
+<br>
+<form action="/AutoBase/login/" method="POST"> 
+<input type="hidden" name="mode" value="regshow">
+<button type="submit" style="width:300px;height:30px">Зарегистрироваться</button>
+</form>
+</div>
+</body>
+</html>
